@@ -1,11 +1,9 @@
 
 let canvas, line, wrong = 0;
-
 canvas = document.querySelector("canvas");
 line = canvas.getContext("2d");
 canvas.width = 700;
 canvas.height = 400;
-
 
 function firstLine(){
     line.beginPath();
@@ -90,10 +88,9 @@ function leftLeg(){
 let word;
 let cont;
 function getWord(){
-   
+    
    word = document.getElementById("txt").value;
    cont = word.length;
-
    for(let i = 0;i < word.length; ++i){
         let div = document.createElement("div");
         div.style.width = "50px";
@@ -121,7 +118,6 @@ function getWord(){
         document.getElementById("letters").appendChild(button);
     }
     
-    
     document.getElementById("0").innerHTML = word[0];
     
         for(let i = 0; i < word.length; ++i){
@@ -130,10 +126,8 @@ function getWord(){
             }
        }
     
-
        document.getElementById("txt").value = "";
 
-     
 }
 
 
@@ -141,11 +135,8 @@ function getWord(){
 function compare(value){
 
     let positions = [] , i = -1;
-    let bigLetter = value.toUpperCase();
-    console.log(bigLetter);
     let wrongTest = (word.indexOf(value) > -1);
     if(wrongTest == false) ++wrong;
-
 
     while((i=word.indexOf(value,i+1)) >= 0) positions.push(i);
     
@@ -172,8 +163,6 @@ function compare(value){
     }
     window.alert("YOU LOSE!");
     }
-    
-    
     
 }
 
