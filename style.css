@@ -1,0 +1,56 @@
+#canvas{
+    
+    margin-left: 500px;
+    display:block;
+    
+}
+h1{
+   
+    text-align: center;
+    letter-spacing: 10px;
+    
+    
+}
+
+h2{
+    text-align: center;
+    
+}
+
+
+
+.container{
+    display:flex;
+    height: 50px;
+    width: 700px;
+    margin-left: 550px;
+    
+}
+
+
+
+.domain{
+    margin-left:550px;
+}
+
+
+
+.cont{
+   
+    width: 1300px;
+    margin-left:260px;
+    
+
+}
+
+#btn{
+    color:brown;
+    height: 30px;
+    width: 30px;
+    margin-left:10px;
+}
+
+#label{
+    margin-left: 550px;
+}
+
