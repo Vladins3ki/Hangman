@@ -5,20 +5,15 @@
     
 }
 h1{
-   
     text-align: center;
     letter-spacing: 10px;
     
     
 }
-
 h2{
     text-align: center;
     
 }
-
-
-
 .container{
     display:flex;
     height: 50px;
@@ -36,7 +31,6 @@ h2{
 
 
 .cont{
-   
     width: 1300px;
     margin-left:260px;
     
@@ -52,5 +46,17 @@ h2{
 
 #label{
     margin-left: 550px;
+    
+}
+
+.lettersField{
+    width: 50px;
+    height: 50px;
+    color:black;
+    border-bottom: 4px solid black;
+    margin-right: 10px;
+    font-size: xx-large;
+    text-align: center;
+    
 }
 
