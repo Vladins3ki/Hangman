@@ -16,8 +16,8 @@ for(let i = 'A'.charCodeAt(0); i <= 'Z'.charCodeAt(0); ++i) {
         button.innerHTML = String.fromCharCode(i);
         button.value = String.fromCharCode(i + 32);
         button.addEventListener('click', () => {
-        compare(button.value);    
-        button.disabled = true;
+                compare(button.value);    
+                button.disabled = true;
         })
         document.getElementById("letters").appendChild(button);
     }
