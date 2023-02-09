@@ -13,7 +13,7 @@ function getWord(){
                 button.className = "button"
                 button.id = "btn"
                 button.innerHTML = String.fromCharCode(i);
-                button.value = String.fromCharCode(i + 32);
+                button.value = String.fromCharCode(i).toLocaleLowerCase;
                 button.addEventListener('click', () => {
                         compare(button.value);    
                         button.disabled = true;
