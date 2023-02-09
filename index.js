@@ -1,4 +1,3 @@
-
 let word, cont, wrong = -1;
 function getWord(){
         word = document.getElementById("txt").value;
@@ -49,26 +48,3 @@ function compare(value){
         window.alert("YOU LOSE!");
     } 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-   
-    
-
-
-
-
